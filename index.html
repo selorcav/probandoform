@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="El Sistema de Análisis de Bolsas de Empleo (SABE) un proyecto que recopila y estandariza información procedente de varios portales de búsqueda en internet en Chile." />
+    <link rel="icon" type="image/png" href="./src/assets/favicon.png">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/sass/style.css" />
+    <title>SABE | Sistemas de Análisis de Bolsas de Empleo</title>
+  </head>
+
+  <body>
+    <nav class="fixed-top px-5">
+      <div class="nav-logo float-left">
+        <img src="./src/assets/logo.png" alt="Logo SABE" />
+      </div>
+      <div class="icon position-absolute d-md-none d-block">
+        <div class="icon-menu position-absolute"></div>
+      </div>
+      <ul class="menu float-right">
+        <a href="#home"><span class="underline text-white">Inicio</span></a>
+        <a href="#project"
+          ><span class="underline text-white">El Proyecto</span></a
+        >
+        <a href="#events"><span class="underline text-white">Eventos</span></a>
+        <a href="#news"><span class="underline text-white">Noticias</span></a>
+        <a href="#contact"
+          ><span class="underline text-white">Contacto</span></a
+        >
+      </ul>
+    </nav>
+    <main id="home">
+      <div class="row m-0">
+        <div
+          class="col-12 col-md-8 d-flex align-items-center justify-content-center h-100vh bg-blue"
+        >
+          <img class="img-fluid" src="./src/assets/logo-02.png" alt="Logo SABE" />
+        </div>
+      </div>
+    </main>
+    <section class="py-5" id="project">
+      <div class="container pt-5">
+        <div class="row m-0 flex-md-row flex-column-reverse">
+          <div class="col-md-6">
+            <img class="img-fluid" src="./src/assets/about.png" alt="Gráfica" />
+          </div>
+          <div class="col-md-6 p-5">
+            <hr class="mb-5 mx-0 blue-line" />
+            <p>
+              El <b>Sistema de Análisis de Bolsas de Empleo (SABE)</b> un
+              proyecto que recopila y estandariza información procedente de
+              varios portales de búsqueda en internet en Chile. En un marco
+              Utilizando técnicas de minería de textos y aprendizaje automático
+              (machine learning), clasifica los avisos de trabajo y las
+              descripciones de último empleo de los postulantes en categorías
+              ocupacionales. Además en el mediano plazo detectará habilidades
+              descritas en avisos de empleo, y clasificará los avisos por sector
+              económico, ubicación geográfica y requerimiento educacionales de
+              los postulantes.
+              <br />
+              El proyecto cuenta con financiamiento de OTIC SOFOFA y la
+              contraparte técnica del Observatorio Laboral de SENCE.
+            </p>
+          </div>
+        </div>
+        <div class="team m-3">
+          <h2 class="text-center font-weight-bold">Equipo</h2>
+          <hr class="blue-line col-4 col-md-2" />
+          <div class="row m-0">
+            <div
+              class="col-sm-6 col-md-3 d-flex justify-content-center align-items-center flex-column p-4 text-center"
+            >
+              <div class="team-member">
+                <img class="img-fluid" src="./src/assets/juan-v.jpg" alt="Juan Velásquez" />
+              </div>
+              <h5 class="p-2 font-weight-bold">Juan Velásquez</h5>
+              <p>Co-director Académico</p>
+            </div>
+            <div
+              class="col-sm-6 col-md-3 d-flex justify-content-center align-items-center flex-column p-4 text-center"
+            >
+              <div class="team-member">
+                <img
+                  class="img-fluid"
+                  src="./src/assets/benjamin-v.jpg"
+                  alt="Benjamín Villena"
+                />
+              </div>
+              <h5 class="p-2 font-weight-bold">Benjamín Villena</h5>
+              <p>Co-director Académico</p>
+            </div>
+            <div
+              class="col-sm-6 col-md-3 d-flex justify-content-center align-items-center flex-column p-4 text-center"
+            >
+              <div class="team-member">
+                <img class="img-fluid" src="./src/assets/rocio-r.jpg" alt="Rocío Ruiz" />
+              </div>
+              <h5 class="p-2 font-weight-bold">Rocío Ruiz</h5>
+              <p>Dirección Ejecutiva</p>
+            </div>
+            <div
+              class="col-sm-6 col-md-3 d-flex justify-content-center align-items-center flex-column p-4 text-center"
+            >
+              <div class="team-member">
+                <img class="img-fluid" src="./src/assets/felipe-v.jpg" alt="Felipe Vera" />
+              </div>
+              <h5 class="p-2 font-weight-bold">Felipe Vera</h5>
+              <p>Dirección Tecnológica</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-5" id="events">
+      <div class="container pt-5">
+        <h2 class="text-center font-weight-bold">Eventos</h2>
+        <hr class="blue-line col-4 col-md-2" />
+        <div class="row m-0 py-5">
+          <div class="col-md-8">
+            <span>Recientes | </span
+            ><a class="font-weight-bold" href="">Ver más ></a>
+            <div class="event-card bg-primarycolor p-5 my-3">
+              <h4 class="text-white">Mercado Laboral y Pandemia</h4>
+              <p class="blockquote-footer text-white">18 de agosto de 2020</p>
+              <hr class="white-line" />
+              <p class="text-white">
+                Lanzamiento Sistema de Análisis de Bolsas de Empleo
+              </p>
+              <a href="https://youtu.be/AuV7TNHrr2Y" target="_blank">
+                <button
+                  type="button"
+                  class="btn btn-events text-white float-right"
+                >
+                  Ver más
+                </button>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <span>Próximos</span>
+            <a href="#">
+              <div class="col-12 next-events bg-gray row m-0 my-3 p-2">
+                <div class="col-4 text-center">
+                  <h3 class="font-weight-bold">TBA</h3>
+                  <span>-</span>
+                </div>
+                <div
+                  class="col-8 d-flex justify-content-center align-items-center"
+                >
+                  <p class="font-weight-bold">TBA</p>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div class="col-12 next-events bg-gray row m-0 my-3 p-2">
+                <div class="col-4 text-center">
+                  <h3 class="font-weight-bold">TBA</h3>
+                  <span>-</span>
+                </div>
+                <div
+                  class="col-8 d-flex justify-content-center align-items-center"
+                >
+                  <p class="font-weight-bold">TBA</p>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div class="col-12 next-events bg-gray row m-0 my-3 p-2">
+                <div class="col-4 text-center">
+                  <h3 class="font-weight-bold">TBA</h3>
+                  <span>-</span>
+                </div>
+                <div
+                  class="col-8 d-flex justify-content-center align-items-center"
+                >
+                  <p class="font-weight-bold">TBA</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-5" id="news">
+      <div class="container pt-5">
+        <h2 class="text-center font-weight-bold">Noticias</h2>
+        <hr class="blue-line col-4 col-md-2" />
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide mt-5"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleIndicators"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+          </ol>
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+              <div class="row news-card bg-gray">
+                <div class="col-md-6">
+                  <div class="overflow-hidden d-flex justify-content-center">
+                    <img
+                    src="./src/assets/youtube.jpg"
+                    alt="Lanzamiento de Sistema de Análisis de Bolsas de Empleo"
+                  />
+                  </div>
+                </div>
+                <div
+                  class="col-md-6 p-3 d-flex align-items-start justify-content-center flex-column"
+                >
+                  <span class="p-2">18 de agosto 2020</span>
+                  <h4 class="p-2 text-primarycolor font-weight-bold">
+                    Mercado Laboral y Pandemia
+                  </h4>
+                  <p class="p-2">
+                    Lanzamiento de Sistema de Análisis de Bolsas de Empleo
+                  </p>
+                  <button type="button" class="btn btn-news mr-4 mx-2">
+                    Ver más
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row news-card bg-gray">
+                <div class="col-md-6">
+                  <div class="overflow-hidden d-flex justify-content-center">
+                    <img
+                      src="./src/assets/ahoraeshora.jpg"
+                      alt="Entrevista en programa 'Ahora es Hora' Radio Cooperativa."
+                    />
+                  </div>
+                </div>
+                <div
+                  class="col-md-6 p-3 d-flex align-items-start justify-content-center flex-column"
+                >
+                  <span class="p-2">22 de agosto 2020</span>
+                  <h4 class="p-2 text-primarycolor font-weight-bold">
+                    Ahora es Hora
+                  </h4>
+                  <p class="p-2">
+                    Entrevista en programa "Ahora es Hora" Radio Cooperativa.
+                  </p>
+                  <a href="https://www.cooperativa.cl/noticias/economia/sistema-previsional/afp/ahora-es-hora-la-fuerte-recuperacion-de-la-rentabilidad-de-los-fondos/2020-08-22/120604.html" target="_blank">
+                    <button type="button" class="btn btn-news mr-4 mx-2">
+                      Ver más
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row news-card bg-gray">
+                <div class="col-md-6">
+                  <div class="overflow-hidden d-flex justify-content-center">
+                    <img
+                      src="./src/assets/aumentosalario.jpg"
+                      alt="Nota y opinión sobre aumento de salario mínimo en Miradas MIPP"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="col-md-6 p-3 d-flex align-items-start justify-content-center flex-column"
+                >
+                  <span class="p-2">24 de septiembre 2020</span>
+                  <h4 class="p-2 text-primarycolor font-weight-bold">
+                    Aumento del salario mínimo y sus efectos en un Chile en pandemia
+                  </h4>
+                  <p class="p-2">
+                    Nota y opinión sobre aumento de salario mínimo en Miradas MIPP
+                  </p>
+                  <a href="http://www.mipp.cl/miradas/2020/09/24/aumento-salario-minimo-chilepandemia/" target="_blank">
+                    <button type="button" class="btn btn-news mr-4 mx-2">
+                      Ver más
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row news-card bg-gray">
+                <div class="col-md-6">
+                  <div class="overflow-hidden d-flex justify-content-center">
+                    <img
+                      src="./src/assets/radioinfinita.jpg"
+                      alt="Entrevista en programa 'Work Café Santander' en Radio Infinita"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="col-md-6 p-3 d-flex align-items-start justify-content-center flex-column"
+                >
+                  <span class="p-2">02 de octubre 2020</span>
+                  <h4 class="p-2 text-primarycolor font-weight-bold">
+                    Work Café Santander: Empleabilidad e Innovación
+                  </h4>
+                  <p class="p-2">
+                    Entrevista en programa "Work Café Santander" en Radio Infinita
+                  </p>
+                  <a href="https://youtu.be/FUh92DO03-Q" target="_blank">
+                    <button type="button" class="btn btn-news mr-4 mx-2">
+                      Ver más
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row news-card bg-gray">
+                <div class="col-md-6">
+                  <div class="overflow-hidden d-flex justify-content-center">
+                    <img src="./src/assets/24horas.png" alt="Entrevista en Canal 24 Horas, Mañana Informativa" />
+                  </div>
+                </div>
+                <div
+                  class="col-md-6 p-3 d-flex align-items-start justify-content-center flex-column"
+                >
+                  <span class="p-2">09 de octubre 2020</span>
+                  <h4 class="p-2 text-primarycolor font-weight-bold">
+                    24Horas: Académico: “Vamos a tener tasas bastante altas de desempleo por un tiempo largo
+                  </h4>
+                  <p class="p-2">
+                    Entrevista en Canal 24 Horas, Mañana Informativa, sobre la evolución reciente y perspectivas del mercado laboral en Chile.
+                  </p>
+                  <a href="https://www.24horas.cl/coronavirus/academico-vamos-a-tener-tasas-bastante-altas-de-desempleo-por-un-tiempo-largo-4483260" target="_blank">
+                    <button type="button" class="btn btn-news mr-4 mx-2">
+                      Ver más
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row news-card bg-gray">
+                <div class="col-md-6">
+                  <div class="overflow-hidden d-flex justify-content-center">
+                    <img
+                      src="./src/assets/radiouchile.jpg"
+                      alt="Entrevista en Radio Universidad de Chile"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="col-md-6 p-3 d-flex align-items-start justify-content-center flex-column"
+                >
+                  <span class="p-2">11 de noviembre 2020</span>
+                  <h4 class="p-2 text-primarycolor font-weight-bold">
+                    Benjamín Villena y el impacto de la pandemia en el mercado
+                    laboral chileno
+                  </h4>
+                  <p class="p-2">
+                    Entrevista en Radio Universidad de Chile, sobre proyecto Sistema de Análisis de Bolsas de Empleo (SABE)
+                  </p>
+                  <a href="https://www.mipp.cl/miradas/2020/11/11/radio-uchile-benjamin-villena-y-el-impacto-de-la-pandemia-en-el-mercado-laboral-chileno/" target="_blank">
+                    <button type="button" class="btn btn-news mr-4 mx-2">
+                      Ver más
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="bg-primarycolor">
+      <div class="container pt-5">
+        <h3 class="text-center pt-5 text-white font-weight-bold">
+          Contáctanos
+        </h3>
+        <hr class="white-line col-4 col-md-2" />
+        <div class="col-8 offset-2" action="enviar.php" method="post">
+          <form method="post" action="enviar.php">
+            <div class="form-group mt-5">
+              <input
+                type="text"
+                class="form-control my-3"
+                placeholder="Nombre"
+                name="nombre"
+                required
+              />
+              <input
+                type="email"
+                class="form-control my-3"
+                placeholder="E-mail"
+                name="email"
+                required
+              />
+              <input
+                type="tel"
+                class="form-control my-3"
+                placeholder="Teléfono"
+                name="telefono"
+                required
+              />
+              <textarea
+                name=""
+                class="form-control my-3"
+                id=""
+                cols="30"
+                rows="5"
+                placeholder="Tu mensaje"
+                name="mensaje"
+                required
+              ></textarea>
+            </div>
+            <input type="submit" class="btn btn-contact d-block m-0auto" value="Enviar">
+            </input>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-12 row align-items-center">
+            <div class="footer-logo d-inline-block px-3 mr-3">
+              <img class="img-fluid" src="./src/assets/logo.png" alt="Logo SABE" />
+            </div>
+            <a href=""
+              ><div
+                class="rrss d-flex justify-content-center align-items-center mx-1"
+              >
+                <i class="fab fa-twitter text"></i></div
+            ></a>
+            <a href=""
+              ><div
+                class="rrss d-flex justify-content-center align-items-center mx-1"
+              >
+                <i class="fab fa-facebook-f"></i></div
+            ></a>
+            <a href=""
+              ><div
+                class="rrss d-flex justify-content-center align-items-center mx-1"
+              >
+                <i class="fab fa-instagram"></i></div
+            ></a>
+          </div>
+          <div class="col-md-6 mt-3">
+            <ul>
+              <li class="font-weight-bold text-white mt-3">Dirección</li>
+              <li class="text-white">Domeyko 2367. Santiago, Chile</li>
+              <li class="font-weight-bold text-white mt-3">Correo</li>
+              <a href="mailto:benjamin.villena.r@gmail.com"><li class="text-white">benjamin.villena.r@gmail.com</li></a>
+              <li class="font-weight-bold text-white mt-3">Teléfonos</li>
+              <li class="text-white">+56 229784084</li>
+            </ul>
+          </div>
+          <div class="col-md-6 mt-3">
+            <ul>
+                <li class="font-weight-bold text-white mt-3">
+                  Sitios de interés
+                </li>
+              <a href="https://www.gob.cl/ministerios/ministerio-del-trabajo-y-prevision-social/"
+                ><li class="text-white mt-2">
+                  Ministerio del Trabajo y Previsión Social
+                </li></a
+              >
+              <a href="http://mipp.cl/es/inicio/"
+                ><li class="text-white mt-2">
+                  Instituto Milenio para Investigación en Imperfecciones de
+                  Mercados y Políticas Públicas (MIPP).
+                </li></a
+              >
+              <a href="https://www.dii.uchile.cl/"
+                ><li class="text-white mt-2">
+                  Departamento de Ingeniería Industrial, Universidad de Chile
+                </li></a
+              >
+              <a href="https://economiayempresa.udp.cl/"
+                ><li class="text-white mt-2">
+                  Facultad de Economía y Empresa, Universidad Diego Portales
+                </li></a
+              >
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./src/js/app.js"></script>
+  </body>
+</html>
